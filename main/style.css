@@ -1,0 +1,120 @@
+ body{
+    overflow-x: hidden ;
+ }
+ .navbar,.container-fluid{
+    background-color: transparent;
+}
+.carousel-inner{
+    position: relative;
+}
+.navbar{
+    position:absolute;
+   top: 20px;
+   left: 50px;
+   z-index: 990;
+}
+.navbar-nav a{
+    color: #fff;
+}
+.navbar-nav> a:hover{
+color: #fff!important;
+opacity: 0.7;
+}
+.navbar-nav>a:visited{
+    color: #fff;
+}
+.navbar-nav  .active{
+    color: #fff!important;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand:hover{
+    opacity: 0.7;
+    color: #fff;
+}
+.navbar-brand:visited{
+    color: #fff;
+}
+.navbar-toggler{
+    border: none;
+    color: #fff!important;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    color: #fff!important;
+}
+.offcanvas-body a{
+    color: #000!important;
+}
+.offcanvas-body .active{
+    color: #000!important;
+}
+.offcanvas-body a:hover{
+    opacity: 0.7;
+    color: #000;
+}
+.offcanvas-body a:visited{
+    color: #000!important;
+}
+.offcanvas-body a:focus{
+    color: #000!important;
+}
+.carousel-control-prev,.carousel-control-next{
+    position:relative;
+    background-color: #000!important;
+    opacity:1;
+    padding: 10px;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+}
+
+@media (max-width:1350px){
+    .np-buttons{
+        position: absolute;
+        display: flex;
+        bottom:0;
+        right: 7px;
+    }
+    .desktop-buttons .carousel-control-next,.carousel-control-prev{
+        display:none;
+     }
+     .carousel-control-next-mobile,.carousel-control-prev-mobile{
+        display: inline-block;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #fff;
+        position: relative;
+        background-color: #000;
+    }
+    
+}
+
+
+@media (max-width:1200px){
+   
+    .carousel-inner img{
+        height: 60vh!important;
+    }
+    .header-caption{
+        padding-top: 10px!important;
+        margin-top:10px!important ;
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+    .about{
+        margin-top: 5px!important;
+    }
+    .about h1{
+        padding-top:0!important;
+    }
+}
+@media (max-width:576px){
+    .carousel-inner img{
+        height: 40vh!important;
+    }
+    .about h1{
+        padding-top:25px!important;
+    }
+}
